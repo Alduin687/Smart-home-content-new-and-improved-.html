@@ -1,0 +1,128 @@
+/* Some default styles to make each box visible. This targets all items with a class that starts with "box" */
+
+[class^="box"] {
+  color:cadetblue;
+  font-size: 100px;
+  text-align: center;
+  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+  padding:10px;
+}
+
+  
+
+/* Colors for each box */
+
+.box1 { background:#2a2c33;}
+.box2 { background:#464c5f;}
+.box3 { background:#464c5f;}
+.box4 { background:#34495e;}
+.box5 { background:#464c5f;}
+.box6 { background:#464c5f;}
+.box7 { background:#464c5f;}
+
+
+
+/* We start writing our flexbox here. The above is just page setup */
+
+.flex-container {
+  border:10px solid goldenrod;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  align-content: space-evenly;
+  height:100vh;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+
+[class^="box"] {
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.full {
+ width:98%;
+ height: 29vh;
+ 
+}
+
+
+
+
+/* Demo CSS */
+
+
+/*
+----------------------------------------
+CSS Order of operations:
+1. Stylesheet
+2. Document Style
+3. Element Style
+----------------------------------------
+*/
+*{
+box-sizing:border-box;
+}
+body {
+    margin:0;
+}
+nav {
+    background-color:gold;
+    padding: 1rem;
+    justify-content: center;
+}
+
+
+nav > a{
+background-color:rgb(92, 86, 153);
+padding:1rem;
+border-radius:0.25rem;
+display:inline-block;
+text-decoration:none;
+color:aliceblue;
+margin-right:1rem;
+transition-duration:1s;
+transition-property:color;background-color:navy;
+transition-timing-function:ea;
+}
+
+/*transition-delay:;*/
+
+
+
+
+
+/* IDs */
+#content {
+  width: 80vw;
+  background-color:bisque;
+  margin:1rem auto;
+  padding: 1rem;
+}
+
+
+/* classes */
+.flex
+
+/* Inline vs Block Elements */
+
+
+
+
+
+
+
+
+/* Cascade Theory */
+
+
+
+
+
+
+
+
+/* Selector Specificity */
