@@ -25,6 +25,7 @@
 /* We start writing our flexbox here. The above is just page setup */
 
 .flex-container {
+  display: flex;
   border:10px solid goldenrod;
   display: flex;
   flex-flow: row wrap;
@@ -36,7 +37,7 @@
 }
 
 
-[class^="box"] {
+.box {
 display:flex;
 justify-content: center;
 align-items: center;
