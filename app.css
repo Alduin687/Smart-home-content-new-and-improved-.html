@@ -1,6 +1,6 @@
 /* Some default styles to make each box visible. This targets all items with a class that starts with "box" */
 
-[class^="box"] {
+[class^="box"]{
   color:cadetblue;
   font-size: 100px;
   text-align: center;
@@ -99,14 +99,14 @@ transition-timing-function:ea;
 /* IDs */
 #content {
   width: 80vw;
-  background-color:bisque;
+  background-color:rgb(47, 40, 31);
   margin:1rem auto;
   padding: 1rem;
 }
 
 
 /* classes */
-.flex
+
 
 /* Inline vs Block Elements */
 
@@ -127,3 +127,11 @@ transition-timing-function:ea;
 
 
 /* Selector Specificity */
+
+
+/* styles.css */
+
+#title {
+  background-color: cadetblue;
+}
+
